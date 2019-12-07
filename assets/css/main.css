@@ -1,0 +1,87 @@
+div.form-style{
+    margin-right:10px;
+}
+
+.bg-dark {
+    background-color: #343a40!important;
+}
+
+.navbar-dark .navbar-brand {
+    color: beige;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #28a745;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul.navbar-nav.mr-auto {
+    margin-left: 35px;
+}
+
+img.d-block.w-100 {
+    height: 70vh;
+}
+
+.carousel-caption{
+    color:black;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.jumbotron{
+    background-color:beige;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+
+div.detail-container{
+    margin-top:40px;
+}
+
+div.login-container{
+    height:100vh;
+    background:beige;
+}
+
+h1.login{
+    text-align: center;
+    margin-top:50px;
+}
+small{
+   margin-top: 5px;
+}
+
+.alert{
+    margin-bottom:0 !important;
+}
+
+@media only screen and (max-width: 920px) {
+    .jumbotron {
+        padding: 0;
+        margin-bottom: 0; 
+        
+    }
+    h1.big-screen{
+        opacity:0% !important;
+    }
+    p.big-screen-para{
+        opacity:0% !important;
+    }
+  }
+  
