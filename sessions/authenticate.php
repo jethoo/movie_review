@@ -39,5 +39,3 @@
     $_SESSION['flash']['success'][] = "You logged in successfully";
     header('Location: ' . base_path . '/movies'); // redirect to an index page
     exit; // we must exit or the script will continue to run
-
-

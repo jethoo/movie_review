@@ -72,7 +72,7 @@ Movies -->
                           <p class="big-screen-para">Browse all of our reviews and find out more about what others thought of your favorite movies!</p>
                         </div>
                         <div class="col-md-4">
-                          <p><a class="btn btn-lg btn-info" href="<?= base_path ?>/reviews" role="button">VIEW REVIEWS &raquo;</a></p>
+                          <p><a class="btn btn-lg btn-info" href="<?= base_path ?>/movies" role="button">VIEW REVIEWS &raquo;</a></p>
                         </div>
                         </div><!--end of row-->
                     </div><!--end of container-->
@@ -108,7 +108,7 @@ Movies -->
 			<div class="col-md-4">
 				<h2>LIST REVIEWS</h2>
 				<p>Browse all of our reviews and find out more about what others thought of your favorite movies!</p>
-				<p><a class="btn btn-default" href="<?= base_path ?>/reviews" role="button">VIEW REVIEWS &raquo;</a></p>
+				<p><a class="btn btn-default" href="<?= base_path ?>/movies" role="button">VIEW REVIEWS &raquo;</a></p>
 			</div>
 		</div>
 

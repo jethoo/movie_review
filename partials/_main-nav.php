@@ -9,6 +9,13 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+    <?php if (AUTH): ?>
+        <li class="nav-item">
+          <a class="nav-link" href="<?= base_path ?>/users/show.php?id=<?= $_SESSION['user']['id'] ?>">_Welcome-<?= $_SESSION['user']['username'] ?>_</a>
+        </li>
+      <?php endif ?>
+
+
       <li class="nav-item">
         <a class="nav-link" href="<?= base_path ?>">Home</span></a>
       </li>
@@ -29,12 +36,7 @@
         </li>
       <?php endif ?>
       
-      <?php if (AUTH): ?>
-        <li class="nav-item">
-          <a class="nav-link" href="<?= base_path ?>/users/show.php?id=<?= $_SESSION['user']['id'] ?>">My Profile</a>
-        </li>
-      <?php endif ?>
-
+      
       <?php if (ADMIN): ?>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="usersDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

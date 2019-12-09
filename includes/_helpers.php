@@ -1,7 +1,7 @@
 <?php
 
 //redirect
-function redirect($path){
+function redirect ($path) {
     header("Location: {$path}");
     exit;
 }

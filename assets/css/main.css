@@ -55,8 +55,11 @@ div.detail-container{
 }
 
 div.login-container{
-    height:100vh;
     background:beige;
+}
+div.login{
+    background:beige;
+    height:100vh;
 }
 
 h1.login{
@@ -69,6 +72,52 @@ small{
 
 .alert{
     margin-bottom:0 !important;
+}
+
+header.register{
+    padding-top:20px;
+}
+
+input#file_upload {
+ 
+    margin-top: 10px;
+    padding-bottom: 42px;
+}
+
+.col-sm-8.border {
+   
+    padding: 20px 10px 10px 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+img.profile-image-size{
+    height:250px;
+    width:auto;
+    border-radius:18px !important;
+   
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
+div.movie-container{
+    background-color:beige;
+}
+
+small.pull-right {
+    color: green;
+}
+
+p.card-text.strong{
+    color:#28a745 !important;
+}
+
+.col-sm-8.border{
+    color:#28a745;
 }
 
 @media only screen and (max-width: 920px) {

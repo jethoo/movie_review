@@ -7,7 +7,7 @@
 
 <?php include_once(ROOT . '/partials/_header.php') ?>
 
-<div class="container-fluid login-container">
+<div class="container-fluid login">
   <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6"><!--md start-->
